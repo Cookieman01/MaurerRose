@@ -58,8 +58,8 @@ border, = ax.plot([], [], lw=2, color='r')
 x_data, y_data, x2_data, y2_data = [], [], [], []
 
 # Variables
-n = 1
-d = 2
+n = 2
+d = 29
 
 ani = animation.FuncAnimation(fig, update, init_func=init, blit=True, frames=[x for x in range(0, 2*361)], interval=10,
                               repeat=False)
